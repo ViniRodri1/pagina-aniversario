@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-color: #ffee99;
+    color: #1e96fc;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 2% 15% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__links {
+    font-family: 'Indie Flower' , sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1e96fc;
+    text-decoration: none;
+}
+
+.cabecalho__menu__links:hover{
+    background-color: #1e96fc;
+    color: #ffee99;
+    border-radius: 8px;
+}
+
+.apresentacao{
+    padding:2% 15% 2% 15%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 21.5px 0;
+    justify-content: space-between;
+    font-family: 'Alegreya' , sans-serif;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    border: 10px double #1e96fc;
+    width: 700px;
+    text-align: center;
+    padding: 21.5px 0;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    text-align: center;
+}
+
+.aleatorio {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__rodape {
+    background-color: #1e96fc;
+    color: #ffee99;
+    padding: 10px;
+    font-family: 'Alegreya' , sans-serif;
+    text-align: center;
+}
+
+.mensagem{
+    background-color: #cc444b;
+    color: #fbba72;
+    box-sizing: border-box;
+}
+
+.cabecalho__menu__links__mensagem{
+    font-family: 'Indie Flower' , sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fbba72;
+    text-decoration: none;
+}
+
+.cabecalho__menu__links__mensagem:hover{
+    background-color:#fbba72;
+    color:#cc444b;
+    border-radius: 8px;
+}
+.apresentacao__mensagem{
+    padding:2% 8% 2% 8%;
+    display: flex;
+    align-items: center;
+}
+
+.mensagem__titulo{
+    font-size: 36px;
+    border: 10px groove #fbba72;
+    width: 700px;
+    text-align: center;
+    padding: 21.5px 0;
+}
+
+.aleatorio__mensagem{
+    padding:2% 2% 2% 2%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;;
+}
+
+
+.mensagem__rodape {
+    background-color: #fbba72;
+    color: #cc444b;
+    padding: 10px;
+    font-family: 'Alegreya' , sans-serif;
+    text-align: center;
+}
+
+.fotos{
+    background-color: #a2d2ff;
+    color: #023047;
+    box-sizing: border-box;
+}
+
+.cabecalho__menu__links__fotos{
+    font-family: 'Indie Flower' , sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #023047;
+    text-decoration: none;
+}
+
+.cabecalho__menu__links__fotos:hover{
+    background-color:#023047;
+    color:#a2d2ff;
+    border-radius: 8px;
+}
+
+.apresentacao__fotos{
+    padding:2% 15% 2% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.fotos__titulo {
+    font-size: 36px;
+    text-align: center;;
+}
+
+.conteudo__fotos{
+    display: flex;
+    border: 10px ridge #023047;
+    width: 800px;
+    align-items: center;
+    padding: 21.5px 15px;
+    gap: 40px;
+}
+
+.fotos__rodape {
+    background-color: #023047;
+    color: #a2d2ff;
+    padding: 10px;
+    font-family: 'Alegreya' , sans-serif;
+    text-align: center;
+}
